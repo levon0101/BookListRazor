@@ -40,7 +40,7 @@ namespace BookListRazor.Pages.BookList
 
             await _dbContext.SaveChangesAsync();
 
-            Message = "Book has been updated successfully:";
+            Message = "Book has been updated successfully.";
 
             return RedirectToPage("Index");
         }
